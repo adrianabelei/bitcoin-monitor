@@ -6,6 +6,7 @@ import { CurrencyService } from '../../services/CurrencyService';
 const bitcoinService = new BitcoinService();
 const currencyService = new CurrencyService();
 
+
 const mapToPrice = (currentPrice, previousPrice) => {
     return {
         code: currentPrice.code,

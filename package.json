@@ -1,7 +1,7 @@
 {
   "name": "react-bitcoin-monitor",
   "version": "1.0.0",
-  "description": "An app that monitors changes in the Bitcoin Price Index (BPI). Powered by CoinDesk.",
+  "description": " ",
   "scripts": {
     "build": "webpack -d",
     "build:watch": "webpack --watch",
@@ -13,8 +13,8 @@
     "test": "echo \"No tests available\" && exit 0"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drminnaar/react-bitcoin-monitor.git"
+    "type": "",
+    "url": ""
   },
   "license": "MIT",
   "babel": {
@@ -49,6 +49,7 @@
     "axios": "^0.17.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-number-format": "^3.3.3"
   }
 }
